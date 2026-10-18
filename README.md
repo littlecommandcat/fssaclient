@@ -1,6 +1,8 @@
-# fsss-client
+# fssa-client
 
 一個專門取得鳳山高中學生會資料的 client
+
+Based on [fsshclient](https://github.com/littlecommandcat/fsshclient)
 
 - [非同步請求 AsyncClient](src/async.py)
 - [同步請求 SyncClient](src/sync.py)
@@ -8,6 +10,10 @@
 安裝套件
 ```ini
 pip install -r requirements.txt
+```
+或
+```ini
+pip install requests aiohttp
 ```
 
 ## 使用方式
